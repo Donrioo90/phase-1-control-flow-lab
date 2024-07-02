@@ -8,6 +8,7 @@ function scuberGreetingForFeet(distance) {
   } else if (distance > 2500) {
     return "No can do.";
   }
+  
 }
 
 function ternaryCheckCity(destination) {
@@ -16,11 +17,11 @@ function ternaryCheckCity(destination) {
 
 function switchOnCharmFromTip(tip) {
   switch (tip) {
-    case "generous":
+    case 'generous':
       return "Thank you so much.";
-    case "not as generous":
-      return "Thank you.";
+    case 'not as generous':
+      return 'Thank you.';
     default:
-      return "Bye.";
+      return 'Bye.';
   }
 }
